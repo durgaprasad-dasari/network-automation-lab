@@ -1,0 +1,5 @@
+hostname,ip,device_type,role,site
+R1,10.10.10.1,cisco_ios,router,LAB-HQ
+SW1,10.10.10.300,cisco_ios,access-switch,LAB-HQ
+SW2,10.10.10,cisco_ios,access-switch,LAB-HQ
+SW3,not-an-ip,cisco_ios,access-switch,LAB-HQ

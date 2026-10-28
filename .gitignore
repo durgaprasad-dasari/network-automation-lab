@@ -1,0 +1,10 @@
+.env
+*.pem
+*.key
+venv/
+.venv/
+__pycache__/
+backups/
+logs/
+reports/
+data/live_outputs/

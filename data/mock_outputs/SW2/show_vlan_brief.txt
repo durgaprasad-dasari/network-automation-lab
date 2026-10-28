@@ -1,0 +1,5 @@
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Gi0/3
+10   SALES                            active    Gi0/1
+99   MANAGEMENT                       active

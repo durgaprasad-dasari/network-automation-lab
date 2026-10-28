@@ -1,0 +1,7 @@
+# Install on the day it is first needed (see each day's lesson).
+# Versions are intentionally unpinned here; pin them after you confirm what works for you.
+requests
+pyyaml
+netmiko
+ansible-core
+boto3

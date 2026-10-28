@@ -1,0 +1,22 @@
+hostname SW1
+!
+vlan 10
+ name SALES
+vlan 20
+ name ENGINEERING
+vlan 99
+ name MANAGEMENT
+!
+interface GigabitEthernet0/1
+ switchport mode access
+ switchport access vlan 10
+!
+interface GigabitEthernet0/2
+ switchport mode access
+ switchport access vlan 20
+!
+interface GigabitEthernet0/24
+ switchport mode trunk
+!
+line vty 0 4
+ transport input ssh

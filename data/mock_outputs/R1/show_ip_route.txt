@@ -1,0 +1,10 @@
+Codes: C - connected, S - static, O - OSPF, * - candidate default
+
+Gateway of last resort is 10.10.10.254 to network 0.0.0.0
+
+S*    0.0.0.0/0 [1/0] via 10.10.10.254
+      10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks
+C        10.10.10.0/24 is directly connected, GigabitEthernet0/0
+L        10.10.10.1/32 is directly connected, GigabitEthernet0/0
+C     192.168.10.0/24 is directly connected, GigabitEthernet0/1
+O     192.168.30.0/24 [110/20] via 10.10.10.11, 00:12:41, GigabitEthernet0/0
